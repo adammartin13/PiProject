@@ -1,0 +1,11 @@
+#Search{
+    width: 250px;
+    height: 30px;
+    float: right;
+    margin-top: 3%;
+    margin-right: 5%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    background-color: #f5f1f1;
+    border: 1px solid black;
+}
