@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Pi Project</title>
-        <link href="stylesheet.css"  rel="stylesheet">
+        <link href="./styles/stylesheet.css"  rel="stylesheet">
         <script src="index.js"></script>
     </head>
     <div id="FileMenu">
@@ -10,15 +10,18 @@
             <p>Search</p>
         </div>
         <div id="logo">
-            <p>Logo</p>
+            <img src="./images/logo.png" alt="logo">
+        </div>
+        <div style="position:absolute;float:left;">
+            <a href="./groupInfo.html">Contributors</a>
         </div>
         <div id="list">
             <table>
                 <tr>
                     <th style="text-align:left;border-left:none;">Files</th>
-                    <th>D</th>
-                    <th>D</th>
-                    <th>D</th>
+                    <th><img src="./images/desktop.png" alt="desktop" width="40px" height="40px"></th>
+                    <th><img src="./images/cellphone.png" alt="cellphone" width="40px" height="40px"></th>
+                    <th><img src="./images/googleDrive.png" alt="Google Drive" width="40px" height="40px"></th>
                 </tr>
                 <tr>
                     <td class="song"><button onclick="songClick()">test</button></td>
@@ -27,19 +30,19 @@
                     <td>X</td>
                 </tr>
                 <tr>
-                    <td class="song">test2</td>
+                    <td class="song"><button onclick="songClick()">test2</button></td>
                     <td>X</td>
                     <td>X</td>
                     <td>X</td>
                 </tr>
                 <tr>
-                    <td class="song">test3</td>
+                    <td class="song"><button onclick="songClick()">test3</button></td>
                     <td>X</td>
                     <td>X</td>
                     <td>X</td>
                 </tr>
                 <tr>
-                    <td class="song">test4</td>
+                    <td class="song"><button onclick="songClick()">test4</button></td>
                     <td>X</td>
                     <td>X</td>
                     <td>X</td>
@@ -47,7 +50,7 @@
             </table>
         </div>
         <div id="send">
-            <p>Send</p>
+            <img src="./images/send.png" alt="send">
         </div>
     </div>
 </html>
