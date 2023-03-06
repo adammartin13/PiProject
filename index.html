@@ -3,6 +3,7 @@
     <head>
         <title>Pi Project</title>
         <link href="stylesheet.css"  rel="stylesheet">
+        <script src="index.js"></script>
     </head>
     <div id="FileMenu">
         <div id="Search">
@@ -20,7 +21,7 @@
                     <th>D</th>
                 </tr>
                 <tr>
-                    <td class="song">test</td>
+                    <td class="song"><button onclick="songClick()">test</button></td>
                     <td>X</td>
                     <td>X</td>
                     <td>X</td>
@@ -47,25 +48,6 @@
         </div>
         <div id="send">
             <p>Send</p>
-        </div>
-    </div>
-    <div id="SongInfo">
-        <div style="background-color:purple;grid-column:1/4;">0</div>
-        <div id="leftMenu">
-            <div id="albumArt"></div>
-            <p>Song Name</p>
-        </div>
-        <div class="SongFields">
-            <p>Artist Name:</p>
-            <p>Album Name:</p>
-            <p>Year:</p>
-            <p>Genre:</p>
-        </div>
-        <div class="SongData">
-            <p class="ArtistName">Info</p>
-            <p class="AlbumName">Info</p>
-            <p class="Year">Info</p>
-            <p class="Genre">Info</p>
         </div>
     </div>
 </html>

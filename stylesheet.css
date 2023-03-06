@@ -1,7 +1,9 @@
 #Search{
     width: 250px;
     height: 30px;
+    position: absolute;
     float: right;
+    left: 80%;
     margin-top: 3%;
     margin-right: 5%;
     padding-left: 1%;
@@ -65,17 +67,9 @@ tr:nth-child(odd){
     text-align: left;
     border-left: none;
 }
-#FileMenu{
-    position: absolute;
-    width: 98%;
-    height: 98%;
-    display: none;
-}
 #SongInfo{
-    position: absolute;
-    width: 98%;
-    height: 98%;
     display: grid;
+    row-gap: 5%;
     grid-template-columns: 50% 15% 35%;
     grid-template-rows: 10% auto;
 }
@@ -89,11 +83,26 @@ tr:nth-child(odd){
     background-color: black;
     margin-left: 24%;
 }
-.SongFields{
+#SongFields{
     text-align: center;
     margin-top: 150px;
 }
-.SongData{
+#SongData{
     text-align: center;
     margin-top: 150px;
+}
+#BackButton{
+    grid-column:1/4;
+    margin-left:25px;
+    margin-top:10px;
+    width: 120px;
+    height: 40px;
+}
+button{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+button:hover{
+    text-decoration-line: underline;
 }
