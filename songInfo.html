@@ -3,12 +3,23 @@
     <title>Pi Project</title>
     <link href="./styles/stylesheet.css"  rel="stylesheet">
     <script src="index.js"></script>
+    <script src="musicData.js"></script>
+    <script>
+        var imageName = musicData[songSelected].name;
+        imageName = imageName.substring(0, imageName.length - 4);
+        imageName = './images/albumArt/' + imageName + '.png';
+        console.log(imageName)
+        function updateImage(){
+            document.getElementById("albumArt").src = 'url(\'' + imageName + '\')';
+        }
+        window.onload = updateImage;
+    </script>
 </head>
 <html>
     <div id="SongInfo">
         <button id="BackButton" onclick="backButtonClick()"><img src="./images/back.png" alt="Back"></button>
         <div id="leftMenu">
-            <div id="albumArt"></div>
+            <img id="albumArt" src='' alt="Album Cover">
             <p>Song Name</p>
         </div>
         <div id="SongFields">

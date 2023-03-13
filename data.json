@@ -1,1 +1,5 @@
-[{"name":"08 All Your'n.mp3"},{"name":"test.mp3"},{"name":"test2.mp3"}]
+[{"name":"08 All Your'n.mp3"},
+{"name":"test.mp3",
+"cover":"./images/albumArt/test.png"},
+{"name":"test2.mp3",
+"cover":"./images/albumArt/test2.png"}]

@@ -69,6 +69,7 @@ function addFile(file){
     let newData = {
         "name":file,
     };
+
     myObject.push(newData);
     var newData2 = JSON.stringify(myObject);
     fs.writeFile('./data.json', newData2, (err) => {
